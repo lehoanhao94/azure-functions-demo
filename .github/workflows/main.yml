@@ -35,7 +35,7 @@ jobs:
       uses: Azure/functions-action@v1
       id: fa
       with:
-        app-name: bot-functions-api
+        app-name: bot-api-functions
         # If your function app project is not located in your repository's root
         # Please consider prefixing the project path in this package parameter
         package: '.'
